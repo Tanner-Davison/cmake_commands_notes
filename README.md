@@ -20,67 +20,67 @@ cmake --build build
 rm -rf build
 # Manually deletes the build directory, allowing you to start fresh.
 ```
-⚙️ CMake Configuration Options
+## ⚙️ CMake Configuration Options
 🛠️ Set Build Type (Debug/Release)
 ```bash
 cmake -S . -B build -DCMAKE_BUILD_TYPE=Release
 # CMAKE_BUILD_TYPE can be set to Debug, Release, RelWithDebInfo, or MinSizeRel.
 ```
-🧰 Set a Custom Compiler
+## 🧰 Set a Custom Compiler
 ```bash
 cmake -S . -B build -DCMAKE_C_COMPILER=gcc -DCMAKE_CXX_COMPILER=g++
 # Allows you to specify a custom compiler for C and C++.
 ```
-📂 Specify Installation Directory
+## 📂 Specify Installation Directory
 ```bash
 cmake -S . -B build -DCMAKE_INSTALL_PREFIX=/path/to/install
 # Sets the directory where the project will be installed.
 ```
-🧪 Testing and Packaging
-🧪 Run Tests (if configured)
+ # 🧪 Testing and Packaging
+## 🧪 Run Tests (if configured)
 ```bash
 ctest
 # Runs tests defined in your project.
 ```
-📦 Create a Package
+## 📦 Create a Package
 ```bash
 cpack
 # Packages your project according to the configuration specified in CMakeLists.txt.
 ```
-🚀 Advanced Commands
-🛠️ Generate Compilation Database (for IDEs like VSCode)
+# 🚀 Advanced Commands
+## 🛠️ Generate Compilation Database (for IDEs like VSCode)
 ```bash
 cmake -S . -B build -DCMAKE_EXPORT_COMPILE_COMMANDS=ON
 # Generates a compile_commands.json file in the build directory, useful for IDEs that support it.
 ```
-🎛️ Use Presets (CMake 3.19+)
+## 🎛️ Use Presets (CMake 3.19+)
 ```bash
 cmake --preset debug
 # Presets allow predefined configurations (e.g., debug, release) in a CMakePresets.json file.
 ```
-📂 Install the Project
+## 📂 Install the Project
 ```bash
 cmake --install build
 # Installs the project to the directory specified by CMAKE_INSTALL_PREFIX.
 ```
-🧐 Diagnostic Commands
-📋 Show Available CMake Variables
+# 🧐 Diagnostic Commands
+## 📋 Show Available CMake Variables
 ```bash
 cmake -LAH
 # Displays all available CMake cache variables, useful for debugging or configuring the project.
 ```
-📝 Check CMake Version
+## 📝 Check CMake Version
 ```bash
 cmake --version
 # Displays the installed version of CMake.
 ```
-❓ Display Help
+## ❓ Display Help
 ```bash
 cmake --help
 # Shows a help message with commonly used commands and options.
 ```
-🖥️ Interactive Use
-🖼️ CMake GUI
+# 🖥️ Interactive Use
+## 🖼️ CMake GUI
 ```bash
 cmake-gui
 # Launches a graphical user interface for configuring CMake projects interactively.
