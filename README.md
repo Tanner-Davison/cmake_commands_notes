@@ -1,3 +1,6 @@
+![Static Badge](https://img.shields.io/badge/EMAIL-tanner.davison95%40gmail.com-highcontrast)
+
+
 # 📚 CMake Command Reference
 
 A comprehensive reference for essential CMake commands to assist in configuring, building, and managing your C++ projects.
