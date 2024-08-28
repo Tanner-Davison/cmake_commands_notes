@@ -2,6 +2,8 @@
 
 A comprehensive reference for essential CMake commands to assist in configuring, building, and managing your C++ projects.
 
+Created by: Tanner Davison
+
 # 🛠️ Basic CMake Commands
 
 ### 🔧 Configure the Project
