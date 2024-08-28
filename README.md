@@ -2,9 +2,9 @@
 
 A comprehensive reference for essential CMake commands to assist in configuring, building, and managing your C++ projects.
 
-## 🛠️ Basic CMake Commands
+# 🛠️ Basic CMake Commands
 
-### 🔧 Configure the Project
+## 🔧 Configure the Project
 ```bash
 cmake -S . -B build
 # -S .: Specifies the source directory (where CMakeLists.txt is located).
