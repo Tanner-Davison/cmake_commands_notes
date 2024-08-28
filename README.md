@@ -1,4 +1,5 @@
-![Static Badge](https://img.shields.io/badge/EMAIL-tanner.davison95%40gmail.com-highcontrast)
+![Static Badge](https://img.shields.io/badge/Contact-tanner.davison95%40gmail.com-highcontrast%2F)
+
 
 
 # 📚 CMake Command Reference
